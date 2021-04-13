@@ -3,7 +3,7 @@
 亮点：
 
 
-### 1. res目录下有N多种控件的图片, 应用output目录下的globalqss.config 即可将默认的控件都变成很漂亮
+### 1. res目录下有N多种控件的图片, 应用目录下的globalqss.config 即可将默认的控件都变成很漂亮
 ```cpp
     QApplication a(argc, argv);
     a.setStyleSheet(load_txt_file(app_path() + QStringLiteral("globalqss.config")));
