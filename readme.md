@@ -1,4 +1,4 @@
-一个Qt + VS2013编写的GUI框架。用一张图片做背景，可轻松实现换皮肤功能
+基于Qt编写的GUI框架。用一张图片做背景，可轻松实现换皮肤功能
 
 亮点：
 
@@ -40,18 +40,3 @@ public:
 private:
     Ui::UI_About *ui_;
 };
-
-```
-
-###4. 效果示例：
-请打开output目录下的 qtskinui.exe, 然后换几个图片。
-
-
-怎么样？效果满意吧？来看看效果图:
-
-
-![](docimg/img1.png) 
-![](docimg/img2.png) 
-![](docimg/img3.png) 
-![](docimg/img4.png) 
-
